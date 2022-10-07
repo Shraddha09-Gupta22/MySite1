@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head1{
+  display: flex;
+  justify-content:space-evenly;
+  background-color: #504141;
+}
+.head1 h3{
+  color: #c9dbcc;
+}
+
+.first{
+
+  right: 1rem;
+  top: 3rem;
+}
+div{
+  text-align: center;
+}
+
+.first{
+  display: inline-block;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+
+.logo{
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: auto;
+}
+.logo img{
+ height: 5rem;
+ width: 5rem;
+}
+.insideNav a{
+  padding: 2rem;
+}
+.insideNav button{
+  background-color: rgb(213 192 165);
+  border-radius: 2rem;
+  width: 8rem;
+  cursor: pointer;
+  height: 3rem;
+}
+
+.first a :hover{
+  background-color: rgb(24, 87, 66);
+  color: #ffffff;
+  border: 5px solid #dbc9c9;
+  letter-spacing: 4px;
+  transition: 1.0s;
+}
+
+.container1{
+    display: flex;
+    margin: 4rem;
+    flex-flow: wrap;
+    text-align: center;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+}
+.team{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.team img{
+    height: auto;
+    width: 12rem;
+    border-radius: 25rem;
+}
+
+.handles{
+  display: flex;
+  justify-content: center;
+  background-color: #504141;
+  height: 12rem;
+  text-align: center;
+  padding: 5rem;
+}
+
+.handles a{
+  height: 5rem;
+  width: 5rem;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  margin: 1rem;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+  line-height: 100px;
+}
+
+.handles a i{
+  transition: all 0.3s linear;
+}
+
+.handles a:hover i{
+  transform: scale(1.4);
+}
+
+#facebook{
+  color: #3b5998;
+}
+
+#insta{
+  color: #E4405F;
+}
+
+#linkdin{
+  color: #0A66C2;
+}
+
+#git{
+  color: #171515;
+}
+#youtube{
+  color: #FF0000;
+}
